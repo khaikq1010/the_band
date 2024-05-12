@@ -75,3 +75,35 @@ header nav a {
 .nav-icon-search:hover {
   background-color: red;
 }
+
+/* .header-slider-content img {
+  width: 100%;
+} */
+
+.main-band {
+  margin: 64px auto;
+  max-width: 800px;
+}
+
+.main-band-title {
+  font-size: 30px;
+  font-weight: 400;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  line-height: 1.5;
+  margin: 10px 0px;
+  text-align: center;
+}
+
+.main-band-slogan {
+  text-align: center;
+  opacity: 0.6;
+  font-size: 15px;
+  font-style: italic;
+  line-height: 1.5;
+  margin: 15px 0px;
+}
+
+.main-band-detail {
+  text-align: justify;
+}
