@@ -13,6 +13,8 @@ li {
   list-style-type: none;
 }
 
+/* HEADER */
+
 header nav {
   background-color: #000;
   display: flex;
@@ -76,34 +78,132 @@ header nav a {
   background-color: red;
 }
 
-/* .header-slider-content img {
-  width: 100%;
-} */
-
+/* MAIN CONTENT */
 .main-band {
-  margin: 64px auto;
+  padding: 64px 16px;
+  margin: 0px auto;
   max-width: 800px;
 }
 
 .main-band-title {
-  font-size: 30px;
-  font-weight: 400;
+  text-align: center;
+  line-height: 1.5;
   letter-spacing: 4px;
   text-transform: uppercase;
-  line-height: 1.5;
+  font-size: 30px;
+  font-weight: 400;
   margin: 10px 0px;
-  text-align: center;
 }
 
 .main-band-slogan {
+  margin: 15px 0px;
   text-align: center;
   opacity: 0.6;
   font-size: 15px;
-  font-style: italic;
   line-height: 1.5;
-  margin: 15px 0px;
+  font-style: italic;
 }
 
 .main-band-detail {
+  margin: 15px 0px;
   text-align: justify;
+  line-height: 1.5;
+}
+
+.main-band-team {
+  padding: 32px 0px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.main-band-team-member {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main-band-team-member img {
+  width: 60%;
+  border-radius: 6px;
+  margin-bottom: 16px;
+}
+
+.main-band-team-member-name {
+  margin: 15px 0px;
+  line-height: 1.5;
+}
+
+/* TOUR */
+
+.main-tour {
+  background-color: #000;
+}
+
+.main-tour-container {
+  color: #fff;
+  padding: 64px 16px;
+  margin: 0px auto;
+  max-width: 800px;
+}
+
+.main-tour-title {
+  text-align: center;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 1.5;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  margin: 10px 0px;
+}
+
+.main-tour-detail {
+  margin: 15px 0px;
+  font-size: 15px;
+  line-height: 1.5;
+  font-style: italic;
+  opacity: 0.6;
+  text-align: center;
+}
+
+.main-tour-tickets-info {
+  background-color: #fff;
+  color: #000;
+}
+
+.main-tour-tickets-info-item {
+  padding: 8px 16px;
+  color: #757575;
+  font-size: 15px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+  display: flex;
+  line-height: 1.5;
+}
+
+.main-tour-tickets-info-item-sold-out {
+  margin-left: 16px;
+  padding: 0px 8px;
+  background-color: #f44336;
+  color: #fff;
+}
+
+.main-tour-tickets-info-item-quantity {
+  padding: 0px 8px;
+  border-radius: 50%;
+  background-color: #000;
+  margin-left: auto;
+  color: #fff;
+}
+
+.main-tour-tickets-buy {
+  padding: 32px 0px;
+  display: flex;
+}
+
+.main-tour-tickets-buy-item {
+  background-color: #000;
+  width: 33.3333%;
+}
+
+.main-tour-tickets-buy-item img {
+  width: 100%;
 }
